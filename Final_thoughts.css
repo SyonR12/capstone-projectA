@@ -1,0 +1,135 @@
+/*Final Thoughts Stylesheet*/
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Source Code Pro', monospace;
+    font-weight:bold;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: black;
+}
+
+
+.header {
+    color: rgb(255, 255, 255);
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    font-weight:bold;
+    margin-bottom: -15px;
+}
+
+.header:hover {
+    background-color: gray;
+    opacity: 0.5;
+    border-radius: 15px;
+}
+
+#big_div {
+    border: 3px solid black;
+    border-radius:15px;
+    margin-left: 2.5%;
+    margin-top:50px;
+    width:95%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    box-shadow: 0 0 2000px rgba(0, 0, 0, 0.4);
+}
+
+
+#logo_div {
+    margin-top:0px;
+    width:100%;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+
+#capstone_img {
+    margin-top:85px;
+    margin-bottom:50px;
+
+}
+#ASC_reflection {
+    display:flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius:15px;
+    margin:20px;
+    width:100%;
+    padding:10px;
+    text-align: center;
+    
+}
+
+#justin_response_div {
+    border: 2px solid black;
+    border-radius:15px;
+    margin:20px;
+    font-size:19px;
+    padding:5px;
+}
+
+#nasir_response_div {
+    border: 2px solid black;
+    border-radius:15px;
+    margin:20px;
+    font-size:19px;
+    padding:5px;
+}
+
+#syon_response_div {
+    border: 2px solid black;
+    border-radius:15px;
+    margin:20px;
+    font-size:19px;
+    padding:5px;
+}
+
+.empty_text {
+    color:white;
+}
+
+#message {
+    display:flex;
+    text-align: center;
+    background-color:black;
+    color:white;
+    width:95%;
+    margin-left:2.5%;
+    margin-top: 50px;
+    margin-right: 50px;
+    padding-top: 500px;
+    margin-bottom: 50px;
+    height:600px;
+    font-size:90px;
+    border-radius: 15px;
+    display:none;
+    
+}
+
+#message2 {
+    width: 95%;
+    margin-left:2.5%;
+    margin-top: 5px;
+    margin-right: 50px;
+    padding-top: 20px;
+    margin-bottom: 50px;
+    height:1000px;
+    display:none;
+}
+#message2_img {
+    width: 100%;
+    height:1000px;
+}
+
+
+

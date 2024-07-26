@@ -1,0 +1,128 @@
+/*About us/Home Stylesheet*/
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Source Code Pro', monospace;
+}
+/*Nav Bar*/
+nav {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: black;
+}
+
+
+.header {
+    color: rgb(255, 255, 255);
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    font-weight:bold;
+    margin-bottom: -15px;
+}
+
+.header:hover {
+    background-color: gray;
+    opacity: 0.5;
+    border-radius: 15px;
+}
+
+#homepage_div {
+    display:flex;
+}
+
+#about_us_div {
+    border: 3px black solid;
+    border-style: double;
+    border-radius: 15px;
+    margin:35px;
+    color: black;
+    width: 70%;
+    display:block;
+    box-shadow: 0 0 1000px rgba(0, 0, 0, 0.5);
+}
+
+#about_us_title {
+    text-align: center;
+}
+
+
+.name_divs {
+    color:black;
+    display:flex;
+    border:1.75px black solid;
+    border-radius:15px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:15px;
+}
+
+.name_divs p {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+    margin-top:60px;
+    margin-right:10px;
+}
+
+#syon_div {
+    height:340px;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    color:black;
+}
+
+#syon_image {
+    width: 250px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+
+#justin_image {
+    width: 250px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+
+#nasir_image {
+    width: 250px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom:20px;
+}
+#personal_websites_div {
+    border: 3px black solid;
+    border-radius: 15px;
+    margin: 35px;
+    color: black;
+    width: 30%;
+    display:block;
+    text-align: center;
+}
+
+.site_divs {
+    border: 1px black solid;
+    border-radius: 15px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+    height:340px;
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.site_divs:hover {
+    transform: scale(1.05); /*AI enhanced*/
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3); /*AI enhanced*/
+}
+
+
